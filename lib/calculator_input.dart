@@ -14,9 +14,16 @@ class _CalculatorInputState extends State<CalculatorInput> {
         title: Text('Flutter Calculator'),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           Container(
-            child: Text('A TELA VAI AQUI'),
+            margin: EdgeInsets.only(right: 15.0),
+            child: Text(
+              '0',
+              style: TextStyle(
+                fontSize: 100.0,
+              ),
+            ),
           ),
           CalculatorLines(
             btn1: 'C',
@@ -52,11 +59,14 @@ class _CalculatorInputState extends State<CalculatorInput> {
           ),
           Expanded(
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Expanded(
+                  flex: 2,
                   child: Container(
                     child: Text(
                       '0',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 40.0,
@@ -72,6 +82,7 @@ class _CalculatorInputState extends State<CalculatorInput> {
                   child: Container(
                     child: Text(
                       ',',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 40.0,
@@ -87,6 +98,7 @@ class _CalculatorInputState extends State<CalculatorInput> {
                   child: Container(
                     child: Text(
                       '=',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 40.0,

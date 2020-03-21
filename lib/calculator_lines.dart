@@ -18,12 +18,14 @@ class CalculatorLines extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
             child: Container(
               color: color1,
               child: Text(
                 btn1,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 40.0,
@@ -37,6 +39,7 @@ class CalculatorLines extends StatelessWidget {
               color: color1,
               child: Text(
                 btn2,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 40.0,
@@ -50,6 +53,7 @@ class CalculatorLines extends StatelessWidget {
               color: color1,
               child: Text(
                 btn3,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 40.0,
@@ -63,6 +67,7 @@ class CalculatorLines extends StatelessWidget {
               color: color2,
               child: Text(
                 btn4,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40.0,
