@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
-const Color kColorFirst = Color(0xFFC9CACB);
-const Color kColorSecond = Color(0xFFF28E16);
-const TextAlign kKeyboardTextAlign = TextAlign.center;
-const EdgeInsets kMargin = EdgeInsets.all(1.0);
-const TextStyle kKeyboardTextStyle = TextStyle(
-  color: Colors.black,
-  fontSize: 40.0,
-);
+const kColorPrincipal = Color(0xFFC8C9CA);
+const kColorSecondary = Color(0xFFF28C14);
+
+const kTextColorPrincipal = Colors.black;
+const kTextColorSecondary = Colors.white;
