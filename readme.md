@@ -1,4 +1,4 @@
-[![Latest Version on Flutter](https://img.shields.io/badge/Flutter-1.12.13-blue)](https://flutter.dev/docs/get-started/install)  [![Latest Version on Android Studio](https://img.shields.io/badge/Android%20Studio-3.6.1-green)](https://developer.android.com/studio)
+[![Latest Version on Flutter](https://img.shields.io/badge/Flutter-1.12.13-blue)](https://flutter.dev/docs/get-started/install)  [![Latest Version on Android Studio](https://img.shields.io/badge/Android%20Studio-3.6.1-green)](https://developer.android.com/studio)  [![Latest Version on Google Fonts](https://img.shields.io/badge/Google%20Fonts-0.3.10-blue)](https://pub.dev/packages/google_fonts)
 
 # Flutter Calculator
 

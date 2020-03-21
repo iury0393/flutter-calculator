@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'build_button.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
-import 'constants.dart';
 import 'constants.dart';
 
 class CalculatorInput extends StatefulWidget {
@@ -30,7 +19,10 @@ class _CalculatorInputState extends State<CalculatorInput> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Calculadora'),
+        title: Text(
+          'Calculadora',
+          style: GoogleFonts.montserrat(),
+        ),
       ),
       body: Container(
         child: Column(
