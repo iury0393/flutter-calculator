@@ -2,6 +2,8 @@
 
 # Flutter Calculator
 
+![Calculator](gif.gif)
+
 ## Tabela de Conteúdo
 - <a href="#informações">Informações</a>
 - <a href="#instalação">Instalação</a>
